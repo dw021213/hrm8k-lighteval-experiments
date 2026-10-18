@@ -1,0 +1,6 @@
+# lighteval accelerate "model_name=HuggingFaceTB/SmolLM2-135M-Instruct,batch_size=1" "hrm8k_mc_proto:mmmlu|0" --custom-tasks hrm8k_mc_proto.py --max-samples 20
+# lighteval 0.13.1.dev0 @ c2af9e5, Python 3.12, macOS (CPU), 2026-10-17
+|         Task         |Version|Metric|Value|   |Stderr|
+|----------------------|-------|------|----:|---|-----:|
+|all                   |       |acc   | 0.45|±  |0.1141|
+|hrm8k_mc_proto:mmmlu:0|       |acc   | 0.45|±  |0.1141|

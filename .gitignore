@@ -1,0 +1,5 @@
+results/mc_proto/
+results/proto/
+*.log
+__pycache__/
+.DS_Store

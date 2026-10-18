@@ -1,0 +1,47 @@
+{
+ "GSM8K": {
+  "n": 1319,
+  "lmeval_hrm8k": 1317,
+  "lighteval_expr_gold": 1319,
+  "lighteval_latex_gold": 0,
+  "lighteval_latex_gold_$": 1319,
+  "lighteval_both_gold_$": 1319,
+  "proposed_rule": 1319
+ },
+ "MATH": {
+  "n": 2885,
+  "lmeval_hrm8k": 2885,
+  "lighteval_expr_gold": 2885,
+  "lighteval_latex_gold": 0,
+  "lighteval_latex_gold_$": 2885,
+  "lighteval_both_gold_$": 2885,
+  "proposed_rule": 2885
+ },
+ "OMNI_MATH": {
+  "n": 1909,
+  "lmeval_hrm8k": 1909,
+  "lighteval_expr_gold": 1909,
+  "lighteval_latex_gold": 1909,
+  "lighteval_latex_gold_$": 1909,
+  "lighteval_both_gold_$": 1909,
+  "proposed_rule": 1909
+ },
+ "MMMLU": {
+  "n": 470,
+  "lmeval_hrm8k": 470,
+  "lighteval_expr_gold": 470,
+  "lighteval_latex_gold": 470,
+  "lighteval_latex_gold_$": 470,
+  "lighteval_both_gold_$": 470,
+  "proposed_rule": 470
+ },
+ "KSM": {
+  "n": 1428,
+  "lmeval_hrm8k": 1194,
+  "lighteval_expr_gold": 1387,
+  "lighteval_latex_gold": 1411,
+  "lighteval_latex_gold_$": 1427,
+  "lighteval_both_gold_$": 1427,
+  "proposed_rule": 1427
+ }
+}

@@ -1,0 +1,7 @@
+configs: ['MATH', 'GSM8K', 'OMNI_MATH', 'MMMLU', 'KSM']
+MATH {"splits": {"test": 2885}, "features": {"question": "Value('string')", "answer": "Value('float64')", "original": "Value('string')", "question-initial": "Value('string')", "level": "Value('string')", "type": "Value('string')"}, "answer_python_types": {"float": 2885}}
+GSM8K {"splits": {"test": 1319}, "features": {"question": "Value('string')", "answer": "Value('float64')", "original": "Value('string')"}, "answer_python_types": {"float": 1319}}
+OMNI_MATH {"splits": {"test": 1909}, "features": {"question": "Value('string')", "answer": "Value('int64')", "original": "Value('string')", "question-initial": "Value('string')", "difficulty": "Value('float64')"}, "answer_python_types": {"int": 1909}}
+  OMNI largest answer as loaded: 66071772829247409 type int | int(float(.)) = 66071772829247408
+MMMLU {"splits": {"test": 470}, "features": {"question": "Value('string')", "answer": "Value('int64')", "original": "Value('string')", "subject": "Value('string')"}, "answer_python_types": {"int": 470}}
+KSM {"splits": {"test": 1428}, "features": {"question": "Value('string')", "answer": "Value('string')", "original": "Value('string')", "original_answer": "Value('string')", "category": "Value('string')", "difficulty": "Value('string')"}, "answer_python_types": {"str": 1428}}

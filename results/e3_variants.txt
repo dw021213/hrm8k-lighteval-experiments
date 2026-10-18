@@ -1,0 +1,43 @@
+subset    | gold               | prediction (inside the answer)     | lm-eval        | lighteval expr_gold    | lighteval both_gold_$ 
+GSM8K     | 18.0               | \boxed{18}                         | O              | O                      | O                     
+GSM8K     | 18.0               | \boxed{18.0}                       | O              | O                      | O                     
+GSM8K     | 18.0               | \boxed{18달러}                       | X              | X                      | X                     
+GSM8K     | 18.0               | \boxed{\$18}                       | O              | O                      | O                     
+GSM8K     | 18.0               | 정답: 18                             | O              | O                      | O                     
+GSM8K     | 18.0               | 따라서 답은 18입니다.                      | X              | O                      | O                     
+GSM8K     | 18.0               | 답은 18달러이다. 검산: 9×2=18              | O              | O                      | O                     
+GSM8K     | 2880000.0          | \boxed{2880000}                    | O              | O                      | O                     
+GSM8K     | 2880000.0          | \boxed{2,880,000}                  | X              | O                      | O                     
+GSM8K     | 2880000.0          | \boxed{\$2,880,000}                | X              | O                      | O                     
+GSM8K     | 2880000.0          | \boxed{288만}                       | X              | X                      | X                     
+GSM8K     | -10.0              | \boxed{-10}                        | X              | O                      | O                     
+GSM8K     | -10.0              | \boxed{−10}                        | X              | O                      | O                     
+GSM8K     | 5.0                | 먼저 \boxed{3}을 구하고, 최종 답은 \boxed{5} | O              | O                      | O                     
+GSM8K     | 5.0                | 최종 답은 \boxed{5}이고, 참고로 \boxed{3}   | X              | X                      | X                     
+KSM       | -8\pi              | \boxed{-8\pi}                      | X              | X                      | O                     
+KSM       | -8\pi              | \boxed{-8 \pi}                     | X              | X                      | O                     
+KSM       | -8\pi              | \boxed{-8π}                        | X              | X                      | O                     
+KSM       | -8\pi              | \boxed{-25.13}                     | X              | X                      | X                     
+KSM       | -8\pi              | \boxed{-25.1327}                   | X              | X                      | X                     
+KSM       | -8\pi              | \boxed{-\pi \cdot 8}               | X              | X                      | O                     
+KSM       | 0.5                | \boxed{\frac{1}{2}}                | O              | O                      | O                     
+KSM       | 0.5                | \boxed{1/2}                        | O              | O                      | O                     
+KSM       | 0.5                | \boxed{0.5}                        | O              | O                      | O                     
+KSM       | 0.5                | \boxed{0.50}                       | X              | O                      | O                     
+KSM       | \frac{1}{2}        | \boxed{0.5}                        | X              | O                      | O                     
+KSM       | \frac{1}{2}        | \boxed{1/2}                        | X              | O                      | O                     
+KSM       | \frac{1}{2}        | \boxed{\dfrac{1}{2}}               | X              | O                      | O                     
+KSM       | \frac{1}{2}        | \boxed{\frac12}                    | X              | O                      | O                     
+KSM       | -1                 | \boxed{-1}                         | X              | O                      | O                     
+MMMLU     | 4                  | \boxed{4}                          | O              | O                      | O                     
+MMMLU     | 4                  | \boxed{④}                          | X              | X                      | X                     
+MMMLU     | 4                  | \boxed{(4)}                        | X              | O                      | O                     
+MMMLU     | 4                  | \boxed{4번}                         | X              | X                      | X                     
+MMMLU     | 4                  | \boxed{D}                          | X              | X                      | X                     
+MMMLU     | 4                  | 정답은 4번입니다.                         | X              | O                      | O                     
+OMNI_MATH | 66071772829247409  | \boxed{66071772829247409}          | O              | O                      | O                     
+OMNI_MATH | 66071772829247409  | \boxed{66071772829247408}          | O              | X                      | X                     
+
+=== E4: Language.KOREAN in MultilingualExtractiveMatchMetric
+Expr only -> AttributeError Translation for 'answer' is needed for Language.KOREAN. Please provide its implementation by editing
+Latex(boxed first) -> AttributeError Translation for 'answer' is needed for Language.KOREAN. Please provide its implementation by editing

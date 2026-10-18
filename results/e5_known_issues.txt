@@ -1,0 +1,19 @@
+KSM[3] answer='\\frac{x-3}{4}' original_answer='\\frac{x-3}{4}'
+KSM[82] answer='\\frac{3}{3}' original_answer='\\frac{3}{3}'
+KSM[109] answer='\\sqrt{1+r^2}' original_answer='\\sqrt{1+r^2}'
+KSM[201] answer='\\frac[13}{20}' original_answer='\\frac[13}{20}'
+KSM[323] answer='1' original_answer='4'
+KSM[1254] answer='C_n' original_answer='C_{n}'
+KSM[1262] answer='3\\times4^p' original_answer='3\\times4^p'
+KSM[1396] answer='\\(t-1\\)^{4}' original_answer='\\(t-1\\)^{4}'
+KSM[1420] answer='2e^{\\frac{3}{2}t}' original_answer='2e^{\\frac{3}{2}t}'
+KSM[1427] answer='\\frac{6}{\\(1-x\\)^4}' original_answer='\\frac{6}{\\(1-x\\)^4}'
+row 3: numeric = 0.035398, (pi-3)/4 = 0.035398
+row 201: 78/120 = 0.65 (13/20 = 0.65)
+row 109: tau=0.75: kappa_beta = 1.250000, sqrt(1+tau^2) = 1.250000, beta stays in the plane z=0 -> torsion 0
+row 1427: P(A wins) = 40/81 = 0.493827
+row 1262: n=1 max=3 (3n^2=3)
+row 1262: n=2 max=12 (3n^2=12)
+row 1262: n=3 max=27 (3n^2=27)
+row 1262: if the pattern holds, n=2020 gives 12241200
+scan: 30 answers contain a variable letter; letter absent from question in 8: [(71, '[-\\ln|z|+C]'), (109, '\\sqrt{1+r^2}'), (169, '2r\\cos\\theta'), (1254, 'C_n'), (1262, '3\\times4^p'), (1396, '\\(t-1\\)^{4}'), (1420, '2e^{\\frac{3}{2}t}'), (1427, '\\frac{6}{\\(1-x\\)^4}')]
